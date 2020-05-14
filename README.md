@@ -1,4 +1,5 @@
 # MyApp: Funky Place
+- Language: Java(Android)
 - Features:
   + Using many functions of Firebase include FirebaseAuth, Realtime Database, Storage, FCM
   + Using many libraries support as: Picasso, QR Code, chip-navigation-bar, Youtube api, Gson,...
@@ -10,7 +11,7 @@
   + Create account, login, edit, watch your information.
   + Forget password.
   + Watch wall, like, comment other's posts and watch their information .
-  + Share post.
+  + Share post to multiple apps :Faceboook, Zalo, Message,...
   + Download image in posts.
   + Update your avatar.
   + Show notification when others like or comment your post.
