@@ -1,5 +1,6 @@
 # MyApp: Funky Place
 - Language: Java(Android)
+- Link file apk: https://drive.google.com/open?id=17LkdFqgu90TxSobGz_bAWX0N_kSHDh-2
 - Features:
   + Using many functions of Firebase include FirebaseAuth, Realtime Database, Storage, FCM
   + Using many libraries support as: Picasso, QR Code, chip-navigation-bar, Youtube api, Gson,...
