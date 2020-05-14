@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/e_name"
+        android:title="Thay đổi tên của bạn"/>
+    <item android:title="Thay đổi ngày sinh nhật"
+        android:id="@+id/e_dob"/>
+    <item android:title="Thay đổi thông tin giới tính"
+        android:id="@+id/e_gt"/>
+    <item android:title="Thay đổi số điện thoại"
+        android:id="@+id/e_phone"/>
+</menu>
+

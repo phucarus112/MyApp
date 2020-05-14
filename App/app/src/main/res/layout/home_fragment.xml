@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9c9c4">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_watch_profile"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@drawable/account"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/nf_cap_avt"
+                android:padding="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:textColor="#c9c9c9"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textSize="20dp"
+                android:layout_marginLeft="80dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/nf_cap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bạn đang nghĩ gì?"/>
+            <ImageView
+                android:padding="5dp"
+                android:layout_gravity="right"
+                android:id="@+id/story"
+                android:src="@drawable/story"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+        </androidx.cardview.widget.CardView>
+        <ListView
+            android:divider="#c9c9c9"
+            android:background="#fff"
+            android:transcriptMode="alwaysScroll"
+            android:dividerHeight="5.0sp"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nf_lv"/>
+    </LinearLayout>
+</RelativeLayout>
+

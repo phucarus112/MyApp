@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="10dp"
+        android:id="@+id/talk_avt"
+        android:layout_width="75dp"
+        android:layout_height="75dp"/>
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/talk_num"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="-25dp"
+        android:layout_toRightOf="@+id/talk_avt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="99+"
+        android:textColor="#fff"
+        android:padding="3dp"
+        android:background="#D81B60"/>
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/talk_avt"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18dp"
+            android:text="Name"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/talk_name"/>
+        <TextView
+            android:textColor="#c9c9c9"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="abc def gh i j klmnop qrs tuv w xy z"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/talk_message"/>
+    </LinearLayout>
+</RelativeLayout>

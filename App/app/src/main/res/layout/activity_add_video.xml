@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        tools:context=".Activity.Activity.AddVideoActivity"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:id="@+id/tw"
+            android:padding="8dp"
+            android:background="@drawable/bg1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/addVideo_back"
+                android:background="@drawable/back_state"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="20dp"/>
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:layout_weight="7.5"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:layout_toRightOf="@+id/mywall_back"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:text="Thêm video mới vào playist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/ll"
+            android:weightSum="10"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp">
+                <EditText
+
+                    android:hint="Dán link URL video vào"
+                    android:id="@+id/et_add_video"
+                    android:singleLine="true"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:layout_weight="5"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:id="@+id/btn_add_video_search"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_button"
+                android:layout_width="match_parent"
+                android:text="Tìm kiếm"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ll"
+            android:id="@+id/iv_add_video_kq"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+        <TextView
+            android:id="@+id/tv_add_video_kq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_weight="5"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:id="@+id/btn_add_video_deny"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_button"
+                android:layout_width="wrap_content"
+                android:text="Huỷ bỏ"
+                android:layout_height="60dp" />
+            <Button
+                android:layout_margin="10dp"
+                android:layout_weight="5"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"
+                android:layout_gravity="center"
+                android:id="@+id/btn_add_video_acc"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_button"
+                android:layout_width="wrap_content"
+                android:text="Thêm vào playist"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

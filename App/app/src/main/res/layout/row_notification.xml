@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/noti_avt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="7dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:minWidth="50dp"
+                android:id="@+id/noti_content"
+                android:text="Huỳnh Phúc đã bình luận về ảnh của bạn"
+                android:textSize="16dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_width="wrap_content"
+                android:maxWidth="270dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/noti_time"
+                android:layout_marginTop="5dp"
+                android:textSize="11dp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời gian"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

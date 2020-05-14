@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.SplashActivity"
+    android:background="@drawable/bg1">
+    <ProgressBar
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:id="@+id/splash_progressbar"
+        android:layout_width="75dp"
+        android:layout_height="75dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="italic|bold"
+        android:layout_below="@+id/main"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiện đại, tiện ích, gần gũi"
+        android:textColor="#fff"/>
+    <ImageView
+        android:id="@+id/main"
+        android:layout_centerInParent="true"
+        android:src="@drawable/social"
+        android:layout_width="75dp"
+        android:layout_height="75dp"/>
+    <ImageView
+        android:layout_marginRight="30dp"
+        android:layout_centerVertical="true"
+     android:layout_toLeftOf="@+id/main"
+        android:src="@drawable/vlogger"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/vlogger"/>
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/main"
+        android:src="@drawable/phone"
+        android:layout_width="75dp"
+        android:layout_height="75dp"/>
+    <ImageView
+        android:layout_above="@+id/main"
+        android:layout_toRightOf="@+id/main"
+        android:src="@drawable/tym"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="20dp"/>
+    <ImageView
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/main"
+        android:layout_toLeftOf="@+id/main"
+        android:src="@drawable/music"
+        android:layout_width="75dp"
+        android:layout_height="75dp"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/main"
+        android:layout_marginRight="-51dp"
+        android:layout_marginBottom="38dp"
+        android:layout_toLeftOf="@+id/main"
+        android:src="@android:drawable/ic_menu_send" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/main"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="-48dp"
+        android:layout_toLeftOf="@+id/main"
+        android:src="@android:drawable/ic_menu_send" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/main"
+        android:layout_marginRight="-53dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toLeftOf="@+id/main"
+        android:src="@android:drawable/ic_menu_send" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/main"
+        android:layout_marginRight="-104dp"
+        android:layout_marginBottom="-46dp"
+        android:layout_toLeftOf="@+id/main"
+        android:src="@android:drawable/ic_menu_send" />
+ <TextView
+     android:layout_marginBottom="10dp"
+     android:textStyle="italic"
+    android:layout_above="@+id/load_sb"
+     android:layout_centerHorizontal="true"
+     android:fontFamily="sans-serif-condensed-medium"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Loading ~~~"
+     android:textColor="#fff"/>
+    <SeekBar
+        android:layout_marginBottom="30dp"
+        android:thumb="@android:drawable/sym_action_chat"
+        android:progressDrawable="@android:color/transparent"
+        android:thumbTint="#fff"
+        android:tickMarkTint="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/load_sb"
+        android:layout_width="200dp"
+        android:layout_height="30dp"/>
+</RelativeLayout>

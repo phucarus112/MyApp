@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "409944627584",
+    "firebase_url": "https://phucarus-social-app.firebaseio.com",
+    "project_id": "phucarus-social-app",
+    "storage_bucket": "phucarus-social-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409944627584:android:9be3bb53392fa239940965",
+        "android_client_info": {
+          "package_name": "com.myapp.phucarussocialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409944627584-kf3k9hhk7est23jmoag9krfgvuihphmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6zIUzgLgBCADUveOmv1PnvtPvTMZEtL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409944627584-kf3k9hhk7est23jmoag9krfgvuihphmh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

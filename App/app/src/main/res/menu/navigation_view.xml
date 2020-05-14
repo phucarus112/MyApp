@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:id="@+id/nv_watch"
+            android:title="Xem thông tin"/>
+        <item android:id="@+id/nv_chat"
+            android:title="Nhắn tin"/>
+    </group>
+</menu>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/op_edit"
+        android:title="Chỉnh sửa bài viết"/>
+    <item android:title="Xoá bài viết"
+        android:id="@+id/op_delete"/>
+</menu>

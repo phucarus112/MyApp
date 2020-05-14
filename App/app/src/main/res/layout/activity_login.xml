@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.LoginActivity"
+  android:background="@drawable/bg1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "vertical">
+            <TextView
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp"
+                android:layout_gravity="center"
+                android:id="@+id/error_dn"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+            <LinearLayout
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20sp">
+                <ImageButton
+                    android:layout_marginTop="8sp"
+                    android:background="@android:drawable/ic_dialog_email"
+                    android:id="@+id/imageButton3"
+                    android:layout_width="35sp"
+                    android:layout_height="40sp"
+                    android:foreground="@android:drawable/ic_dialog_email" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColorHint="#fff">
+                    <EditText
+                        android:backgroundTint="#fff"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        android:hint="Email"
+                        android:id="@+id/et_tdn"
+                        android:singleLine="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_marginTop="8sp"
+                    android:background="@android:drawable/ic_lock_lock"
+                    android:id="@+id/imageButton2"
+                    android:layout_width="35sp"
+                    android:layout_height="40sp"
+                    android:foreground="@android:drawable/ic_lock_lock" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    app:passwordToggleEnabled="true"
+                    android:textColorHint="#fff"
+                    app:passwordToggleTint="#fff">
+                    <EditText
+                        android:backgroundTint="#fff"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        android:hint="Mật khẩu"
+                        android:password="true"
+                        android:id="@+id/et_mk"
+                        android:singleLine="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textColor="#fff"
+                    android:layout_marginTop="20sp"
+                    android:layout_gravity="center"
+                    android:id="@+id/btn_dn"
+                    android:background="@drawable/bg_button"
+                    android:layout_width="match_parent"
+                    android:text="Đăng nhập"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_gravity="center"
+                    android:id="@+id/tv_dk"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đăng ký"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:id="@+id/tv_qmk"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quên mật khẩu?"/>
+                <com.google.android.gms.common.SignInButton
+                    android:visibility="invisible"
+                    android:layout_width="150dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20sp"
+                    android:id="@+id/google" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

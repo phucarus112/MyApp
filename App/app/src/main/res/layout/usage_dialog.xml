@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@drawable/bg1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="Youtube, chọn clip cần thêm -> click vào chia sẻ -> sao chép đường liên kết, sau đó dán link video vào"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/use1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="-100dp"
+            android:src="@drawable/use2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:id="@+id/ok_btn"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_button"
+            android:layout_width="match_parent"
+            android:text="Đồng ý"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

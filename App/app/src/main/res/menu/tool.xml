@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Thống kê tin nhắn"
+        android:id="@+id/tool_tke"/>
+    <item android:title="Playist của bạn"
+        android:id="@+id/tool_playist"/>
+</menu>

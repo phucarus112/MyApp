@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.MusicActivity"
+    android:orientation="vertical"
+    android:background="#ff785b">
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/tw"
+        android:padding="8dp"
+        android:background="@drawable/bg1"
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/list_back"
+            android:background="@drawable/back_state"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="20dp"/>
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:layout_toRightOf="@+id/mywall_back"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:text="Bài hát đã tải"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ListView
+        android:divider="#ff785b"
+        android:dividerHeight="15.0sp"
+        android:id="@+id/lv_music"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
