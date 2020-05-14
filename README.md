@@ -3,7 +3,7 @@
   + Using many functions of Firebase include FirebaseAuth, Realtime Database, Storage, FCM
   + Using many libraries support as: Picasso, QR Code, chip-navigation-bar, Youtube api, Gson,...
   + Working with service, broadcast receiver.
-  + Using many views in android, ListView, RecyclerView, ViewPager, Fragment, Animations.
+  + Using many views in android, ListView, RecyclerView, ViewPager, Fragment, Animations, Navigation Drawer
 - Functions:
   + Add, edit, delete your post.
   + Chat real-time (push notification): send text message, image message.
