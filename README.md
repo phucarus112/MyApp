@@ -1,4 +1,4 @@
-# MyApp: Funky Place
+# MyApp: Funky Place (Mạng xã hội Mini)
 - Language: Java(Android)
 - Link file apk: https://drive.google.com/open?id=17LkdFqgu90TxSobGz_bAWX0N_kSHDh-2
 - Features:
